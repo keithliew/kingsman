@@ -654,3 +654,8 @@ textarea { resize: vertical; min-height: 120px; }
   border-bottom: 2px solid var(--gold);
 }
 .card-icon svg { width: 72px; height: 72px; filter: drop-shadow(0 2px 6px rgba(212,165,71,0.25)); }
+
+/* ------------------------------------------------------- services list */
+.service-card { scroll-margin-top: 96px; }
+.service-card .card-body h2 { font-size: 1.3rem; margin-bottom: 0.25rem; }
+.service-card:target { box-shadow: 0 0 0 2px var(--gold); }

@@ -21,6 +21,8 @@ Added after the sync (same date):
 - **Org chart** rebuilt in HTML/CSS on `about.html` (accessible, uses "Jeffari" rather than the chart's "Jeffrey").
 - **Certificates:** the SSM Certificate of Incorporation and PIKM membership card were cropped from the profile and added to `about.html`. The Ministry of Finance and Accountant General's documents are only partly visible in the profile and were **left out** until confirmed. The "Trusted by Government & Clients" badge was left out because nothing supports it.
 - **Map:** Google Maps embed of Leisure Commerce Square added to `contact.html`.
+- **Services page** rebuilt as the profile's 11 services in its order (page 17), with photos cropped from profile pages 13–14 (`assets/services/`). "Dedicated Patrolling" has no description or large photo in the profile, so its image comes from the page 17 tile and its one-line description is written from the profile's patrol wording. The old cropped service photos were removed.
+- **Home page** service cards now use gold SVG icons modelled on profile page 12 in place of photos.
 
 ## 1. Contact details — unverified, currently withheld or marked pending
 - **Phone & fax:** not published. Source material's numbers (`+60 3-1234 5678`-style) look like placeholder patterns, not real numbers. Add real numbers to `contact.html` and the footer of all five pages once confirmed.
