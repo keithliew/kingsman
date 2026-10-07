@@ -643,3 +643,14 @@ textarea { resize: vertical; min-height: 120px; }
   border-radius: var(--radius);
   margin: 1.25rem 0 0.5rem;
 }
+
+/* ----------------------------------------------------- service icon cards */
+.card-icon {
+  background: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.25rem 1rem;
+  border-bottom: 2px solid var(--gold);
+}
+.card-icon svg { width: 72px; height: 72px; filter: drop-shadow(0 2px 6px rgba(212,165,71,0.25)); }
