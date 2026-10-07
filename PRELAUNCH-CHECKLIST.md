@@ -1,6 +1,20 @@
-# Kingsman Security Sdn Bhd — Prelaunch Checklist
+# Kingsman Security Services Sdn Bhd — Prelaunch Checklist
 
 This site was built from five client-supplied marketing PDFs, per `CLAUDE-kingsman-build.md`. Everything below must be confirmed with the client/owner before public launch.
+
+## Update — 7 Oct 2026: content synced to `Kingsman Profile.pdf`
+The client's latest company profile is now the source of truth. It resolved items 1, 2, 3 and part of 10 below:
+- **Contact (item 1):** hotline 011-5252 2626, email, new Petaling Jaya address and business hours now published from the profile. Fax is not in the profile and has been dropped. A map can now be added.
+- **Unarmed vs armed (item 2):** the profile's Unarmed Guard Services text no longer mentions firearms; armed guards are listed as a separate capability. The notice has been removed. "PDRM-licensed firearms" wording was removed because the profile no longer mentions it.
+- **CMS wording (item 3):** replaced with the profile's "24/7 Centralized Security Monitoring" description.
+- **Service areas (item 10):** answered with the nationwide coverage from the profile. Minimum contract term is still open.
+
+Still to confirm with the client (conflicts inside the profile):
+- **Registration number:** the inside cover says `202300456578 (1539788-A)`; the SSM certificate shows `202301045873 (1539788-A)`. The site uses the certificate number.
+- **Director's name:** org chart says "En. Jeffrey Malek"; profile page says "En. Jeffari Bin Abdul Malek". The site uses "Jeffari Bin Abdul Malek".
+- **PIKM full name:** About text says "Malaysian Security Industry Association"; the membership card says "Persatuan Institusi Kawalan Malaysia / Malaysia Institute of Security Control". The site uses the membership card's name.
+- **Founding date:** the profile says "established in 2024"; the SSM certificate shows incorporation on 20 Nov 2023. The site shows both.
+- **Social links:** the profile shows Facebook, LinkedIn, Instagram and YouTube icons but no URLs.
 
 ## 1. Contact details — unverified, currently withheld or marked pending
 - **Phone & fax:** not published. Source material's numbers (`+60 3-1234 5678`-style) look like placeholder patterns, not real numbers. Add real numbers to `contact.html` and the footer of all five pages once confirmed.

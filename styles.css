@@ -356,6 +356,8 @@ a { color: inherit; text-decoration: none; }
 .pillar-card h3 { color: var(--paper); }
 .pillar-card p { color: #cfcac0; font-size: 0.92rem; margin-bottom: 0; }
 .pillar-card .card-index { opacity: 0.8; }
+.pillar-card p + p { margin-top: 0.75rem; }
+.pillar-card .value-line { color: var(--gold-light); font-weight: 600; font-size: 0.8rem; letter-spacing: 0.04em; }
 
 /* ------------------------------------------------------------- value cards */
 .value-card {
