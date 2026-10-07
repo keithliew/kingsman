@@ -10,7 +10,7 @@ The client's latest company profile is now the source of truth. It resolved item
 - **Service areas (item 10):** answered with the nationwide coverage from the profile. The minimum contract term isn't in the profile, so that FAQ has been removed.
 
 Conflicts inside the profile (resolved 7 Oct 2026 — the latest profile is the source of truth; items it doesn't cover are skipped):
-- **Registration number:** the inside cover says `202300456578 (1539788-A)`; the SSM certificate shows `202301045873 (1539788-A)`. The site uses the SSM certificate number as printed in the profile. Resolved.
+- **Registration number:** the inside cover says `202300456578 (1539788-A)`; the SSM certificate image shows `202301045873 (1539788-A)`. On the client's instruction the site uses `202300456578 (1539788-A)`. Resolved. Note: the certificate image on `about.html` still shows the other number.
 - **Director's name:** org chart says "En. Jeffrey Malek"; profile page says "En. Jeffari Bin Abdul Malek". The site uses "Jeffari Bin Abdul Malek".
 - **PIKM full name:** About text says "Malaysian Security Industry Association"; the membership card says "Persatuan Institusi Kawalan Malaysia / Malaysia Institute of Security Control". The site uses the membership card's name.
 - **Founding date:** the profile says "established in 2024"; the SSM certificate shows incorporation on 20 Nov 2023. The site shows both.
