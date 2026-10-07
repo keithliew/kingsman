@@ -359,6 +359,116 @@ a { color: inherit; text-decoration: none; }
 .pillar-card p + p { margin-top: 0.75rem; }
 .pillar-card .value-line { color: var(--gold-light); font-weight: 600; font-size: 0.8rem; letter-spacing: 0.04em; }
 
+/* leadership portraits */
+.leader-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid var(--gold);
+  object-fit: cover;
+  margin-bottom: 1.25rem;
+}
+
+/* ------------------------------------------------------------- org chart */
+.org-chart { display: flex; flex-direction: column; align-items: center; }
+.org-node {
+  background: var(--charcoal);
+  color: var(--paper);
+  border: 1px solid rgba(179,140,65,0.4);
+  border-radius: var(--radius);
+  padding: 0.8rem 1.25rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  min-width: 220px;
+  position: relative;
+}
+.org-node strong { display: block; color: var(--paper); }
+.org-node span { display: block; color: var(--gold-light); font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; margin-top: 0.2rem; }
+.org-node--lead { border-color: var(--gold); }
+.org-chart > .org-node + .org-node,
+.org-branch > * + * { margin-top: 1.5rem; }
+.org-chart > .org-node + .org-node::before,
+.org-branch > * + *::before {
+  content: "";
+  position: absolute;
+  top: -1.5rem;
+  left: 50%;
+  height: 1.5rem;
+  border-left: 2px solid var(--gold);
+}
+.org-branches {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem 0;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  position: relative;
+}
+.org-branches::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(100% / 6);
+  right: calc(100% / 6);
+  border-top: 2px solid var(--gold);
+}
+.org-branches::after {
+  content: "";
+  position: absolute;
+  top: -1.5rem;
+  left: 50%;
+  height: 1.5rem;
+  border-left: 2px solid var(--gold);
+}
+.org-branch > :first-child::before {
+  content: "";
+  position: absolute;
+  top: -1.5rem;
+  left: 50%;
+  height: 1.5rem;
+  border-left: 2px solid var(--gold);
+}
+.org-branch { display: flex; flex-direction: column; align-items: center; padding: 0 0.75rem; }
+.org-regions {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  position: relative;
+}
+.org-regions li {
+  border: 1px dashed var(--gold);
+  border-radius: var(--radius);
+  padding: 0.4rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+@media (max-width: 720px) {
+  .org-branches { grid-template-columns: 1fr; }
+  .org-branches::before { display: none; }
+  .org-branch + .org-branch > :first-child::before { display: none; }
+  .org-node { min-width: 0; width: 100%; }
+}
+
+/* ------------------------------------------------------- certificates */
+.cert-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+.cert-row figure { margin: 0; text-align: center; }
+.cert-row img { border-radius: 4px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); max-height: 420px; width: auto; max-width: 100%; }
+.cert-row figcaption { margin-top: 0.75rem; color: var(--gold-light); font-size: 0.85rem; font-weight: 600; letter-spacing: 0.05em; }
+
 /* ------------------------------------------------------------- value cards */
 .value-card {
   border-top: 3px solid var(--gold);
@@ -523,3 +633,13 @@ textarea { resize: vertical; min-height: 120px; }
   z-index: 1000;
 }
 .skip-link:focus { left: 1rem; top: 1rem; }
+
+/* ------------------------------------------------------------- map */
+.map-embed {
+  display: block;
+  width: 100%;
+  height: 300px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  margin: 1.25rem 0 0.5rem;
+}

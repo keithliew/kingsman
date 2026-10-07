@@ -16,6 +16,12 @@ Still to confirm with the client (conflicts inside the profile):
 - **Founding date:** the profile says "established in 2024"; the SSM certificate shows incorporation on 20 Nov 2023. The site shows both.
 - **Social links:** the profile shows Facebook, LinkedIn, Instagram and YouTube icons but no URLs.
 
+Added after the sync (same date):
+- **Leadership portraits** (`assets/leader-*.webp`) cropped from the profile and shown on `about.html`. The client approved them for web use. They look retouched or AI-enhanced, so swap in original photos if any exist.
+- **Org chart** rebuilt in HTML/CSS on `about.html` (accessible, uses "Jeffari" rather than the chart's "Jeffrey").
+- **Certificates:** the SSM Certificate of Incorporation and PIKM membership card were cropped from the profile and added to `about.html`. The Ministry of Finance and Accountant General's documents are only partly visible in the profile and were **left out** until confirmed. The "Trusted by Government & Clients" badge was left out because nothing supports it.
+- **Map:** Google Maps embed of Leisure Commerce Square added to `contact.html`.
+
 ## 1. Contact details — unverified, currently withheld or marked pending
 - **Phone & fax:** not published. Source material's numbers (`+60 3-1234 5678`-style) look like placeholder patterns, not real numbers. Add real numbers to `contact.html` and the footer of all five pages once confirmed.
 - **Email** (`info@kingsmansecurity.com.my`): published as "plausible" per source — confirm it is live and monitored.
